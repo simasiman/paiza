@@ -5,20 +5,21 @@ public class C013 {
 		Scanner sc = new Scanner(System.in);
 		sc.useDelimiter("\n");
 		String n = sc.nextLine();
+		char c = n.charAt(0);
 		int m = Integer.parseInt(sc.nextLine());
-		String[] ary =new String[m];
+		String[] ary = new String[m];
 		int count = 0;
 
 		ArrayList<String> result = new ArrayList<String>();
-		for(int i=0; i<m;i++) {
+
+		for(int i=0; i<m; i++) {
 			String str = sc.nextLine();
 			ary[i] = str;
 		}
 
-		for(int i=0; i<ary.length;i++) {
+		for(int i=0; i<ary.length; i++) {
 			for(int j=0;j<ary[i].length();j++) {
-				String s = String.valueOf(ary[i].charAt(j));
-				if(s.equals(n)) {
+				if(ary[i].charAt(j) == c) {
 					count++;
 				}
 			}
