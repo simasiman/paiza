@@ -1,0 +1,13 @@
+・C013.java … C013:嫌いな数字 再チャレンジ
+　スコア：100点
+・C040.java … C040:【ロジサマコラボ問題】背比べ 再チャレンジ
+　スコア：100点
+・S_rensyu1.java … 文字列収集 (paizaランク S 相当)
+　スコア：100点
+　https://paiza.jp/learning/word_collection
+・B_rensyu1 … 部署毎の人数を数える（SQL問題）
+　スコア：100点
+　https://paiza.jp/learning/divisions-number
+・C_rensyu01.java … 単語のカウント (paizaランク C 相当)
+　スコア：100点
+　https://paiza.jp/learning/word-count
