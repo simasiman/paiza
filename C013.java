@@ -13,7 +13,7 @@ public class Main {
 
 		for(int i=0; i<m; i++) {
 	 		String str = sc.nextLine();
-			for(int j=0;j<str.length();j++) {
+			for(int j=0; j<str.length(); j++) {
 				if(str.charAt(j) == c) {
 					count++;
 				}
